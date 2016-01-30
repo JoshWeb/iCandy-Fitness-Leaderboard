@@ -1,0 +1,101 @@
+body {
+  background-color: rgba(241, 132, 10, 0.8);
+  min-height: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #fff; }
+
+.btn-border {
+  border-radius: 0;
+  border: 1px solid #fff;
+  color: #fff;
+  box-shadow: none !important;
+  font-size: 20px;
+  font-weight: 300;
+  width: 150px;
+  margin: 10px 5px; }
+  .btn-border.active {
+    background-color: rgba(255, 255, 255, 0.1); }
+  .btn-border:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff; }
+
+.intro {
+  margin: 50px 0; }
+  .intro h1 {
+    font-weight: 700;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 0 20px; }
+  .intro p {
+    font-size: 20px;
+    margin: 0 0 30px; }
+
+.profileBox {
+  background-color: rgba(241, 132, 10, 0.2);
+  text-align: center;
+  color: #fff;
+  padding-top: 15px;
+  position: relative;
+  padding: 20px;
+  margin-bottom: 30px; }
+  .profileBox .medal {
+    position: absolute;
+    color: #d97b16;
+    left: 15px;
+    top: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px; }
+    .profileBox .medal.one::after {
+      content: "st";
+      font-size: 16px;
+      position: absolute;
+      left: 100%;
+      top: 0; }
+    .profileBox .medal.two::after {
+      content: "nd";
+      font-size: 16px;
+      position: absolute;
+      left: 100%;
+      top: 0; }
+    .profileBox .medal.three::after {
+      content: "rd";
+      font-size: 16px;
+      position: absolute;
+      left: 100%;
+      top: 0; }
+  .profileBox h3 {
+    font-family: 'Montserrat', sans-serif; }
+  .profileBox .steps {
+    padding: 0 30px;
+    z-index: 2;
+    position: relative;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif; }
+  .profileBox .peity {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: none; }
+
+.circle-inset {
+  border: 3px solid #fff;
+  padding: 0px;
+  border-radius: 500px;
+  display: inline-block; }
+  .circle-inset img {
+    border-radius: 500px;
+    width: 100px; }
+
+/* Small Devices, Tablets IPAD*/
+/* Medium Devices, Desktops */
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  .profileBox {
+    padding: 20px 20px 45px; }
+
+  .peity {
+    display: block !important; } }
+
+/*# sourceMappingURL=styles.css.map */
